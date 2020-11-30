@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #212235;
+  width: 100vw;
+  color: white;
+}
+
+header img {
+  height: 38px;
+  margin-right: 20px;
+  margin-left: 30px;
+  padding: 11px 0;
+}
+
+header span {
+  font-size: 26px;
+  font-family: serif;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+/* .img */
+
+.img {
+  background-image: url(../img/island.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+/* .intro */
+
+.intro {
+  text-align: center;
+}
+
+.intro h2 {
+  padding: 50px;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.intro p {
+  margin-bottom: 70px;
+}
+
+/* profile */
+.profile {
+  width: 100%;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-left {
+  padding: 30px 0;
+  margin-right: 80px;
+}
+
+.profile-left img {
+  height: 300px;
+  border-radius: 50%;
+}
+
+.profile-right {
+  padding-left: 50px;
+}
+
+.profile-right h3 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.profile-details {
+  display: flex;
+  font-size: 22px;
+}
+
+.details-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.details-left p {
+  margin-bottom: 10px;
+}
+
+.details-right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.details-right p {
+  margin-bottom: 10px;
+}
+
+/* recommend */
+.recommend {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommend h2 {
+  font-weight: lighter;
+  font-size: 25px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.recommend-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+.card {
+  /* height: 480px; */
+  width: 31%;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-contents h2 {
+  font-weight: lighter;
+  font-size: 19px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.card-contents p {
+  margin-bottom: 25px;
+  height: 140px;
+}
+
+.see {
+  text-align: right;
+}
+
+.more {
+  text-decoration: none;
+  color: white;
+  background-color: #212235;
+  padding: 15px;
+  border-radius: 5%;
+  font-size: 18px;
+}
+
+/* contact */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact h2 {
+  font-weight: lighter;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.contact p {
+  margin-bottom: 30px;
+}
+
+.contact-button {
+  text-decoration: none;
+  padding: 21px 63px;
+  margin-bottom: 90px;
+  font-size: 18px;
+  border-radius: 5%;
+  background-color: #232235;
+  color: white;
+}
+
+/* footer */
+footer {
+  background-color: #1A1A1A;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 0;
+}
